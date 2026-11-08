@@ -1,0 +1,254 @@
+{
+  "Switzerland": {
+    "continent": "Europe",
+    "time": ["december", "january", "february", "june", "july", "august"],
+    "budget": "luxury",
+    "weather": "cold",
+    "duration": "medium",
+    "distance": "medium",
+    "type": ["cultural", "nature"]
+  },
+  "Italy": {
+    "continent": "Europe",
+    "time": ["april", "may", "june", "september", "october"],
+    "budget": "moderate",
+    "weather": "mild",
+    "duration": "short",
+    "distance": "close",
+    "type": ["cultural", "relaxing"]
+  },
+  "Spain": {
+    "continent": "Europe",
+    "time": ["may", "june", "september", "october"],
+    "budget": "affordable",
+    "weather": "sunny",
+    "duration": "short",
+    "distance": "close",
+    "type": ["beach", "relaxing"]
+  },
+  "France": {
+    "continent": "Europe",
+    "time": ["april", "may", "june", "september", "october"],
+    "budget": "moderate",
+    "weather": "temperate",
+    "duration": "short",
+    "distance": "close",
+    "type": ["cultural", "relaxing"]
+  },
+  "Germany": {
+    "continent": "Europe",
+    "time": ["june", "july", "august", "december"],
+    "budget": "moderate",
+    "weather": "cool",
+    "duration": "medium",
+    "distance": "close",
+    "type": ["cultural", "historical"]
+  },
+  "Greece": {
+    "continent": "Europe",
+    "time": ["may", "june", "july", "august", "september"],
+    "budget": "reasonable",
+    "weather": "hot",
+    "duration": "medium",
+    "distance": "close",
+    "type": ["beach", "cultural"]
+  },
+  "Norway": {
+    "continent": "Europe",
+    "time": ["june", "july", "august"],
+    "budget": "expensive",
+    "weather": "cold",
+    "duration": "long",
+    "distance": "medium",
+    "type": ["nature", "hiking"]
+  },
+  "Portugal": {
+    "continent": "Europe",
+    "time": ["may", "june", "july", "september", "october"],
+    "budget": "cheap",
+    "weather": "mild",
+    "duration": "short",
+    "distance": "close",
+    "type": ["beach", "relaxing"]
+  },
+  "United Kingdom": {
+    "continent": "Europe",
+    "time": ["june", "july", "august"],
+    "budget": "high",
+    "weather": "rainy",
+    "duration": "medium",
+    "distance": "close",
+    "type": ["cultural", "historical"]
+  },
+  "Turkey": {
+    "continent": "Europe/Asia",
+    "time": ["april", "may", "september", "october"],
+    "budget": "economical",
+    "weather": "warm",
+    "duration": "medium",
+    "distance": "medium",
+    "type": ["cultural", "historical"]
+  },
+  "Thailand": {
+    "continent": "Asia",
+    "time": ["november", "december", "january", "february"],
+    "budget": "cheap",
+    "weather": "tropical",
+    "duration": "long",
+    "distance": "far",
+    "type": ["beach", "adventure"]
+  },
+  "Japan": {
+    "continent": "Asia",
+    "time": ["march", "april", "may", "october", "november"],
+    "budget": "high",
+    "weather": "mild",
+    "duration": "long",
+    "distance": "far",
+    "type": ["cultural", "city"]
+  },
+  "Vietnam": {
+    "continent": "Asia",
+    "time": ["december", "january", "february", "march", "april"],
+    "budget": "cheap",
+    "weather": "humid",
+    "duration": "long",
+    "distance": "far",
+    "type": ["nature", "backpacking"]
+  },
+  "China": {
+    "continent": "Asia",
+    "time": ["april", "may", "september", "october"],
+    "budget": "moderate",
+    "weather": "temperate",
+    "duration": "very long",
+    "distance": "far",
+    "type": ["cultural", "historical"]
+  },
+  "India": {
+    "continent": "Asia",
+    "time": ["october", "november", "december", "january", "february"],
+    "budget": "low",
+    "weather": "hot",
+    "duration": "very long",
+    "distance": "far",
+    "type": ["cultural", "nature"]
+  },
+  "Dubai": {
+    "continent": "Asia",
+    "time": ["november", "december", "january", "february"],
+    "budget": "luxury",
+    "weather": "hot",
+    "duration": "short",
+    "distance": "medium",
+    "type": ["luxury", "city"]
+  },
+  "Russia": {
+    "continent": "Europe/Asia",
+    "time": ["june", "july", "august"],
+    "budget": "average",
+    "weather": "cold",
+    "duration": "medium",
+    "distance": "medium",
+    "type": ["cultural", "historical"]
+  },
+  "Costa Rica": {
+    "continent": "America",
+    "time": ["december", "january", "february", "march", "april"],
+    "budget": "reasonable",
+    "weather": "tropical",
+    "duration": "long",
+    "distance": "far",
+    "type": ["nature", "eco"]
+  },
+  "Mexico": {
+    "continent": "America",
+    "time": ["november", "december", "january", "february", "march"],
+    "budget": "affordable",
+    "weather": "hot",
+    "duration": "long",
+    "distance": "far",
+    "type": ["beach", "cultural"]
+  },
+  "Canada": {
+    "continent": "America",
+    "time": ["june", "july", "august", "september"],
+    "budget": "high",
+    "weather": "cool",
+    "duration": "long",
+    "distance": "far",
+    "type": ["nature", "adventure"]
+  },
+  "Brazil": {
+    "continent": "America",
+    "time": ["december", "january", "february", "march"],
+    "budget": "moderate",
+    "weather": "tropical",
+    "duration": "long",
+    "distance": "far",
+    "type": ["beach", "nature"]
+  },
+  "United States": {
+    "continent": "America",
+    "time": ["may", "june", "september", "october"],
+    "budget": "expensive",
+    "weather": "mild",
+    "duration": "very long",
+    "distance": "far",
+    "type": ["city", "road trip"]
+  },
+  "Argentina": {
+    "continent": "America",
+    "time": ["october", "november", "december", "january", "february"],
+    "budget": "economical",
+    "weather": "cool",
+    "duration": "long",
+    "distance": "far",
+    "type": ["nature", "cultural"]
+  },
+  "New Zealand": {
+    "continent": "Oceania",
+    "time": ["december", "january", "february", "march"],
+    "budget": "expensive",
+    "weather": "cool",
+    "duration": "very long",
+    "distance": "very far",
+    "type": ["nature", "adventure"]
+  },
+  "Australia": {
+    "continent": "Oceania",
+    "time": ["december", "january", "february", "march"],
+    "budget": "luxury",
+    "weather": "sunny",
+    "duration": "very long",
+    "distance": "very far",
+    "type": ["nature", "beach"]
+  },
+  "South Africa": {
+    "continent": "Africa",
+    "time": ["march", "april", "may", "september", "october", "november"],
+    "budget": "moderate",
+    "weather": "warm",
+    "duration": "long",
+    "distance": "far",
+    "type": ["nature", "adventure"]
+  },
+  "Egypt": {
+    "continent": "Africa",
+    "time": ["october", "november", "december", "january", "february", "march"],
+    "budget": "cheap",
+    "weather": "dry",
+    "duration": "medium",
+    "distance": "medium",
+    "type": ["cultural", "historical"]
+  },
+  "Morocco": {
+    "continent": "Africa",
+    "time": ["march", "april", "may", "september", "october", "november"],
+    "budget": "low",
+    "weather": "dry",
+    "duration": "medium",
+    "distance": "medium",
+    "type": ["cultural", "adventure"]
+  }
+}

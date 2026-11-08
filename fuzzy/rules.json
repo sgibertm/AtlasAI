@@ -1,0 +1,274 @@
+[
+  { 
+    "if": { "time": "winter" }, 
+    "then": ["Mexico", "Vietnam", "Egypt", "Brazil", "South Africa", "Dubai", "India", "Argentina"] 
+  },
+  { 
+    "if": { "time": "spring" }, 
+    "then": ["Turkey", "China", "India", "Egypt", "Morocco", "Japan", "United States"] 
+  },
+  { 
+    "if": { "time": "summer" }, 
+    "then": ["Norway", "Switzerland", "Canada", "Iceland", "Russia", "United Kingdom", "United States"] 
+  },
+  { 
+    "if": { "time": "autumn" }, 
+    "then": ["Spain", "Germany", "Greece", "Portugal", "Japan", "China", "Morocco"] 
+  },
+  { 
+    "if": { "weather": "cold" }, 
+    "then": ["Switzerland", "Iceland", "Norway", "Russia", "Canada"] 
+  },
+  { 
+    "if": { "weather": "mild" }, 
+    "then": ["Italy", "France", "Portugal", "Turkey", "Japan", "China", "Argentina"] 
+  },
+  { 
+    "if": { "weather": "warm" }, 
+    "then": ["Thailand", "Brazil", "Mexico", "Vietnam", "Dubai", "India", "Egypt", "Morocco"] 
+  },
+  { 
+    "if": { "weather": "cool" }, 
+    "then": ["Canada", "Norway", "Germany", "United Kingdom", "New Zealand", "Russia"] 
+  },
+  { 
+    "if": { "budget": "cheap" }, 
+    "then": ["Vietnam", "India", "Morocco", "Egypt", "Mexico", "Thailand", "Argentina"] 
+  },
+  { 
+    "if": { "budget": "medium" }, 
+    "then": ["Greece", "Argentina", "Mexico", "Spain", "China", "Turkey", "Russia"] 
+  },
+  { 
+    "if": { "budget": "expensive" }, 
+    "then": ["Switzerland", "Norway", "Australia", "New Zealand", "United States", "Japan", "Dubai"] 
+  },
+  { 
+    "if": { "duration": "short" }, 
+    "then": ["Spain", "France", "Italy", "Portugal", "Morocco"] 
+  },
+  { 
+    "if": { "duration": "medium" }, 
+    "then": ["Greece", "Turkey", "United Kingdom", "Egypt", "Russia", "Dubai"] 
+  },
+  { 
+    "if": { "duration": "long" }, 
+    "then": ["Australia", "Brazil", "Canada", "New Zealand", "Thailand", "China", "United States", "India"] 
+  },
+  { 
+    "if": { "distance": "close" }, 
+    "then": ["Spain", "France", "Portugal", "Italy", "Germany", "Greece"] 
+  },
+  { 
+    "if": { "distance": "medium" }, 
+    "then": ["Morocco", "Egypt", "Turkey", "Russia", "United Kingdom", "Dubai"] 
+  },
+  { 
+    "if": { "distance": "far" }, 
+    "then": ["Australia", "Brazil", "Japan", "South Africa", "United States", "Canada", "China", "Argentina", "India"] 
+  },
+  { 
+    "if": { "type": "beach" }, 
+    "then": ["Thailand", "Mexico", "Brazil", "Vietnam", "Costa Rica", "Morocco"] 
+  },
+  { 
+    "if": { "type": "relaxation" }, 
+    "then": ["Dubai", "Portugal", "Greece", "Morocco", "Thailand"] 
+  },
+  { 
+    "if": { "type": "cultural" }, 
+    "then": ["Egypt", "Japan", "China", "Mexico", "Russia", "India", "Morocco", "Italy", "France", "United Kingdom"] 
+  },
+  { 
+    "if": { "type": "nature" }, 
+    "then": ["Switzerland", "Norway", "Costa Rica", "New Zealand", "Australia", "Argentina", "Canada", "United States", "Russia"] 
+  },
+  { 
+    "if": { "type": "adventure" }, 
+    "then": ["Canada", "Iceland", "South Africa", "Brazil", "Argentina", "Russia", "Morocco"] 
+  },
+  { 
+    "if": { "type": "wildlife" }, 
+    "then": ["South Africa", "Costa Rica", "Canada", "Brazil", "India", "Australia"] 
+  },
+
+
+  { 
+    "if": { "time": "winter", "weather": "warm" }, 
+    "then": ["Thailand", "Mexico", "Brazil", "Vietnam", "South Africa", "Dubai"] 
+  },
+  { 
+    "if": { "time": "winter", "budget": "cheap" }, 
+    "then": ["Thailand", "Vietnam", "Egypt", "Costa Rica"] 
+  },
+  { 
+    "if": { "time": "winter", "budget": "medium" }, 
+    "then": ["Mexico", "Brazil", "Costa Rica"] 
+  },
+  { 
+    "if": { "time": "winter", "budget": "expensive" }, 
+    "then": ["Australia", "Japan", "South Africa", "New Zealand", "United States"] 
+  },
+  { 
+    "if": { "time": "winter", "type": "wildlife" }, 
+    "then": ["Costa Rica", "South Africa", "Brazil"] 
+  },
+  { 
+    "if": { "time": "spring", "weather": "mild" }, 
+    "then": ["Italy", "France", "Japan", "Portugal", "Greece"] 
+  },
+  { 
+    "if": { "time": "spring", "budget": "medium" }, 
+    "then": ["Italy", "Greece", "France", "Turkey"] 
+  },
+  { 
+    "if": { "time": "spring", "type": "cultural" }, 
+    "then": ["Italy", "France", "Japan", "Germany", "Turkey", "Egypt", "India"] 
+  },
+  { 
+    "if": { "time": "spring", "distance": "medium" }, 
+    "then": ["Morocco", "Egypt", "Turkey"] 
+  },
+  { 
+    "if": { "time": "summer", "weather": "cool" }, 
+    "then": ["Norway", "Iceland", "Canada", "New Zealand"] 
+  },
+  { 
+    "if": { "time": "summer", "budget": "medium" }, 
+    "then": ["France", "Germany", "Switzerland"] 
+  },
+  { 
+    "if": { "time": "summer", "budget": "expensive" }, 
+    "then": ["Switzerland", "Norway", "Iceland", "New Zealand"] 
+  },
+  { 
+    "if": { "time": "summer", "duration": "long" }, 
+    "then": ["Canada", "Iceland", "South Africa", "New Zealand", "Australia"] 
+  },
+  { 
+    "if": { "time": "summer", "type": "adventure" }, 
+    "then": ["Canada", "Iceland", "South Africa", "Brazil", "Thailand"] 
+  },
+  { 
+    "if": { "time": "autumn", "weather": "mild" }, 
+    "then": ["Italy", "France", "Spain", "Portugal", "Greece"] 
+  },
+  { 
+    "if": { "time": "autumn", "budget": "medium" }, 
+    "then": ["Italy", "France", "Spain", "Germany", "Greece"] 
+  },
+  { 
+    "if": { "time": "autumn", "distance": "far" }, 
+    "then": ["China", "Japan", "Canada", "United States"] 
+  },
+  { 
+    "if": { "time": "autumn", "type": "cultural" }, 
+    "then": ["France", "Japan", "Germany", "China", "Mexico"] 
+  },
+  { 
+    "if": { "weather": "cold", "type": "cultural" }, 
+    "then": ["Russia", "Germany", "Japan"] 
+  },
+  { 
+    "if": { "weather": "warm", "duration": "long" }, 
+    "then": ["Thailand", "Brazil", "Australia", "Vietnam", "South Africa"] 
+  },
+  { 
+    "if": { "weather": "warm", "budget": "medium" }, 
+    "then": ["Portugal", "Greece", "Spain"] 
+  },
+  { 
+    "if": { "weather": "warm", "distance": "far" }, 
+    "then": ["Thailand", "Brazil", "Australia", "New Zealand", "South Africa", "Japan"] 
+  },
+  { 
+    "if": { "budget": "cheap", "type": "beach" }, 
+    "then": ["Thailand", "Mexico", "Vietnam", "Costa Rica", "Morocco"] 
+  },
+  { 
+    "if": { "budget": "cheap", "distance": "far" }, 
+    "then": ["India", "Vietnam", "Thailand", "Argentina"] 
+  },
+  { 
+    "if": { "budget": "medium", "type": "relaxation" }, 
+    "then": ["Portugal", "Greece", "Spain", "France"] 
+  },
+  { 
+    "if": { "budget": "expensive", "type": "cultural" }, 
+    "then": ["United States", "Japan", "Dubai", "Switzerland"] 
+  },
+  { 
+    "if": { "budget": "expensive", "type": "nature" }, 
+    "then": ["Switzerland", "Norway", "Iceland", "New Zealand", "Australia"] 
+  },
+  { 
+    "if": { "budget": "expensive", "type": "adventure" }, 
+    "then": ["Canada", "Iceland", "South Africa", "Brazil", "Thailand"] 
+  },
+  { 
+    "if": { "distance": "close", "duration": "short" }, 
+    "then": ["Spain", "France", "Portugal", "Italy", "Germany", "Greece"] 
+  },
+  { 
+    "if": { "distance": "medium", "duration": "medium" }, 
+    "then": ["Italy", "Greece", "Germany", "Turkey", "United Kingdom"] 
+  },
+  { 
+    "if": { "distance": "far", "duration": "long" }, 
+    "then": ["Australia", "Brazil", "Canada", "New Zealand", "Thailand", "Vietnam", "China"] 
+  },
+
+
+  { 
+    "if": { "time": "winter", "budget": "cheap", "type": "relaxation" }, 
+    "then": ["Thailand", "Vietnam", "Egypt", "Costa Rica"] 
+  },
+  { 
+    "if": { "time": "winter", "budget": "cheap", "distance": "far" }, 
+    "then": ["India", "Vietnam", "Thailand"] 
+  },
+  { 
+    "if": { "time": "winter", "budget": "expensive", "distance": "far" }, 
+    "then": ["Australia", "Japan", "United States", "Dubai", "Argentina"] 
+  },
+  { 
+    "if": { "time": "spring", "budget": "cheap", "type": "cultural" }, 
+    "then": ["Morocco", "Egypt", "India"] 
+  },
+  { 
+    "if": { "time": "spring", "budget": "medium", "distance": "medium" }, 
+    "then": ["Italy", "Greece", "France", "Turkey"] 
+  },
+  { 
+    "if": { "time": "spring", "weather": "warm", "duration": "long" }, 
+    "then": ["Greece", "Portugal", "Spain"] 
+  },
+  { 
+    "if": { "time": "summer", "duration": "long", "type": "adventure" }, 
+    "then": ["Canada", "Iceland", "South Africa", "Brazil", "Thailand"] 
+  },
+  { 
+    "if": { "time": "summer", "budget": "medium", "type": "cultural" }, 
+    "then": ["Italy", "France", "Germany", "Turkey"] 
+  },
+  { 
+    "if": { "time": "summer", "budget": "expensive", "duration": "long" }, 
+    "then": ["Switzerland", "Norway", "Iceland", "New Zealand"] 
+  },
+  { 
+    "if": { "time": "autumn", "weather": "mild", "budget": "medium" }, 
+    "then": ["Italy", "France", "Spain", "Portugal", "Greece"] 
+  },
+  { 
+    "if": { "time": "autumn", "budget": "medium", "type": "nature" }, 
+    "then": ["China", "Canada", "Argentina"] 
+  },
+  { 
+    "if": { "weather": "warm", "budget": "medium", "type": "relaxation" }, 
+    "then": ["Portugal", "Greece", "Spain", "France"] 
+  },
+  { 
+    "if": { "budget": "medium", "distance": "far", "type": "adventure" }, 
+    "then": ["Argentina", "Brazil", "Mexico", "South Africa"] 
+  }
+]
